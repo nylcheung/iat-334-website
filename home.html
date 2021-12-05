@@ -7,13 +7,55 @@
     <title>Recruit</title>
 
 
+    <!-- fade animation library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="grids.css">
 </head>
 
 <body>
+    <!-- navigation section -->
     <nav>
-        
+        <a href="#landing-section" class="logo">
+            <div>Recruit</div>
+        </a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
     </nav>
-    <p>zoo wee mama</p>
+
+    <!-- landing page section -->
+    <section id="landing-section">
+        <div class="grid two-column landing">
+            <div  data-aos-duration="1200" data-aos="fade-down">
+                <h1>
+                    Your next "go-to" collaboration application!
+                </h1>
+                <p class = "landing-paragraph"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.  </p>
+                <button class = "landing-button" type = "button">Click Me!</button>
+            </div>
+            <img class = "landing-img" src="images/334_homepagePic-01.svg" width="700" height="700"
+                alt="landing page image of guy with computer on lap" data-aos-duration="1200" data-aos="fade-up">
+        </div>
+    </section>
+
+    <!-- About us section -->
+    <section id = "about-us">
+        <p class = "about-us-text">Lacinia quis vel eros donec. Cursus turpis massa tincidunt dui ut ornare lectus sit. Dolor morbi non arcu risus. Pellentesque pulvinar pellentesque habitant morbi tristique. Ultrices dui sapien eget mi proin sed libero enim. Leo a diam sollicitudin tempor id eu nisl nunc. Iaculis eu non diam phasellus vestibulum lorem. Scelerisque in dictum non consectetur a erat nam. Vitae congue eu consequat ac. Consequat ac felis donec et odio.</p>
+    </section>
+
+    <!-- fade animation library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
