@@ -14,6 +14,12 @@ body {
 
 a {
     text-decoration: none;
+    font-weight: 400;
+    color: #233E57;
+}
+a:hover, a:focus {
+    color: #FF4B72;
+    transition: .5s ease-in-out;
 }
 
 nav {
@@ -32,7 +38,7 @@ h1 {
     padding-left: 7.25rem;
     padding-top: 3.25rem;
     font-size: 4.5rem;
-
+    font-weight: 700;
     text-align: left;
     color: #233E57;
 }
@@ -44,10 +50,7 @@ h1 {
     font-size: 2rem;
 }
 
-.logo:hover, .logo:focus {
-    color: #8FAAD6;
-    transition: .5s ease;
-}
+
 
 .nav-links {
     font-family: 'Nunito', sans-serif;
@@ -108,8 +111,137 @@ h1 {
     margin-right: auto;
 }
 
-section#about-us {
+
+/* about section css */
+section#about {
     padding: 5rem;
     background-color: #233E57;
     color: #fff;
+}
+
+.about-title{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 1.4rem;
+    font-size: 4rem;
+}
+.about-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+
+/* Contact page */
+label {
+    color: #233E57;
+    font-weight: 600;
+}
+
+.align-form {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-title {
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 5rem;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    color: #233E57;
+}
+
+.contact-subtitle {
+    max-width: 70%;
+    padding-top: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.contact {
+    margin-top: 5rem;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.submit {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    border-radius: 2rem;
+    background-color: #FF4B72;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 0.5rem 0.75rem;
+}
+
+.submit:hover, .submit:focus {
+    transition: 0.25s ease-in-out; 
+    background-color: #B00C2F;
+    cursor:pointer;
+}
+
+.highlight-me {
+    background-image: linear-gradient(to bottom, #4CFEF5, #FCB1FF);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+
+/* form tutorial from https://www.youtube.com/watch?v=vc9rgFHr098&ab_channel=WEBCIFAR */
+.container {
+    width: 90%;
+    max-width: 31rem;
+    margin: 0 auto;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.25rem;
+}
+.form-group {
+    width: 100%;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.form-group input, .form-group textarea{
+    width: 100%;
+    padding: 0.3px;
+    font-size: 1.2rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    margin-bottom: 1.3rem;;
+    border: 1rem solid gray;
+    border-radius: 0.5rem;
+    margin-top: 0.3rem;
+}
+
+@media (max-width: 40rem) {
+    .contact-title{
+        font-size:2rem;
+    }
+
+    .contact-subtitle{
+        font-size: 1rem;
+        padding-bottom: 2rem;
+    }
 }
