@@ -71,7 +71,9 @@ h3 {
 
 }
 
-
+div.logo a{
+    font-weight: 800;
+}
 
 .nav-links {
     font-family: 'Nunito', sans-serif;
