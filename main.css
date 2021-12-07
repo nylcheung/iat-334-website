@@ -161,6 +161,18 @@ div.logo a{
     color: #fff;
 }
 
+.landing-case-button3{
+    border:none;
+    border-radius: 2rem;
+    background: #27AB69;
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+    color: #fff;
+}
+
 .landing-button3:hover, .landing-button3:focus {
     background: #0e663a;
     transition: .5s ease-in-out;
@@ -403,8 +415,10 @@ padding-left: 15%;
     margin-right: auto;
     padding-bottom: 7rem;
 
-  
+}
 
+.case-img{
+    padding-bottom: 1rem;
 }
 
 .list-container{
