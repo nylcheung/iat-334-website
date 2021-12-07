@@ -44,7 +44,7 @@ nav {
 
 h1 {
     padding-left: 15%;
-    padding-top: 3.25rem;
+  
     font-size: 3rem;
     font-weight: 800;
     text-align: left;
@@ -207,10 +207,10 @@ div.logo a{
 .features-text {
     width: 75%;
     text-align: center;
-align-items: center;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 4rem;
+   
 
 
 }
@@ -366,6 +366,64 @@ label {
     -webkit-text-fill-color: transparent;
     font-weight: 600;
 }
+
+#footer{
+    padding: 1.5rem;
+    background-color: #233e57;
+    color: white;
+}
+
+.case-heading{
+font-size: 2rem;
+padding-top: 3rem;
+padding-left: 15%;
+}
+
+.case-heading2{
+    font-size: 2rem;
+    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    }
+
+.landing-case-paragraph {
+    padding-left: 15%;
+    text-align:left; 
+    max-width: 90%;
+    padding-top: 2rem;
+    font-size: 1.1rem;
+}
+
+.case-text {
+    width: 75%;
+    text-align: left;
+    font-size: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 7rem;
+
+  
+
+}
+
+.list-container{
+margin-top:-5.5rem;
+width: 70%;
+padding-bottom: 7rem;
+}
+
+.list-container li{
+text-align: left;
+font-size: 1rem;
+list-style-type: circle;
+padding-bottom: 1rem;
+font-size: 1.2rem;
+
+}
+
+
+
 
 /* form tutorial from https://www.youtube.com/watch?v=vc9rgFHr098&ab_channel=WEBCIFAR */
 .container {
